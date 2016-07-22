@@ -49,11 +49,12 @@ int main()
     t5=clock();
     sf_search_image(handle, db_handle, img.data, SF_PIX_FMT_BGR888, img.cols, img.rows,img.step, *rlt);
 
-    if(rlt->value==0) cout<<"test image is detected"<<endl;
+    if(rlt->value==1) cout<<"test image is detected"<<endl;
     else cout<<"fail to detect the test iamge"<<endl;
 
     t6=clock();
     delete index;
+    delete rlt;
 
     sf_destroy_image_db(db_handle);
     sf_destroy_image_searcher(handle);

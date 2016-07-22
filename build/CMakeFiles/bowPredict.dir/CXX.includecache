@@ -10,18 +10,6 @@
 sf_common.h
 /home/sensetime/deduplicate_release/sf_common.h
 
-/home/sensetime/deduplicate_release/pthread_pool.cpp
-pthread_pool.hpp
-/home/sensetime/deduplicate_release/pthread_pool.hpp
-pthread.h
--
-stdlib.h
--
-stdio.h
--
-
-/home/sensetime/deduplicate_release/pthread_pool.hpp
-
 /home/sensetime/deduplicate_release/sample.cpp
 opencv2/opencv.hpp
 -
