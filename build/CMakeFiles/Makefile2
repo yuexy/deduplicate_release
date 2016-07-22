@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release
+CMAKE_SOURCE_DIR = /home/sensetime/deduplicate_release
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build
+CMAKE_BINARY_DIR = /home/sensetime/deduplicate_release/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/bowPredict.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_r
 CMakeFiles/bowPredict.dir/all:
 	$(MAKE) -f CMakeFiles/bowPredict.dir/build.make CMakeFiles/bowPredict.dir/depend
 	$(MAKE) -f CMakeFiles/bowPredict.dir/build.make CMakeFiles/bowPredict.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sensetime/deduplicate_release/build/CMakeFiles  1 2
 	@echo "Built target bowPredict"
 .PHONY : CMakeFiles/bowPredict.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/bowPredict.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bowPredict.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sensetime/deduplicate_release/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bowPredict.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sensetime/deduplicate_release/build/CMakeFiles 0
 .PHONY : CMakeFiles/bowPredict.dir/rule
 
 # Convenience name for target.

@@ -1,9 +1,9 @@
+   
+// sample test for sdk 22 July, 2016;
 
 #include <opencv2/opencv.hpp>
 #include <vector>
-#include "pthread_pool.hpp"
 #include<fstream>
-//#include "BOW.h"
 #include"include_sense_image_search.h"
 #include<string>
 #include<ctime>
@@ -27,7 +27,7 @@ int main()
 
     std::clock_t t1,t2;
     t1=clock();
-    sf_load_image_db(db_handle, "./invfile.st");
+    //sf_load_image_db(db_handle, "./invfile.st");
 
     t2=clock();
 
@@ -37,16 +37,20 @@ int main()
     int * index =new int();
 
     t2=clock();
-    sf_add_image(db_handle,img.data,SF_PIX_FMT_BGR888,img.cols,img.rows,img.step, index);
 
+    sf_add_image(db_handle,img.data,SF_PIX_FMT_BGR888,img.cols,img.rows,img.step, index);
+    sf_update_weights(db_handle);
     t3=clock();
-    sf_delete_image(db_handle, *index);
+    //sf_delete_image(db_handle, *index);
 
     t4=clock();
-    sf_update_weights(db_handle);
+    //sf_update_weights(db_handle);
 
     t5=clock();
     sf_search_image(handle, db_handle, img.data, SF_PIX_FMT_BGR888, img.cols, img.rows,img.step, *rlt);
+
+    if(rlt->value==0) cout<<"test image is detected"<<endl;
+    else cout<<"fail to detect the test iamge"<<endl;
 
     t6=clock();
     delete index;
@@ -55,3 +59,10 @@ int main()
     sf_destroy_image_searcher(handle);
     return 0;
 }
+
+
+
+
+
+
+

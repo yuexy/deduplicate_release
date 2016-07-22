@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/pthread_pool.cpp" "/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/bowPredict.dir/pthread_pool.cpp.o"
-  "/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/sample.cpp" "/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/bowPredict.dir/sample.cpp.o"
+  "/home/sensetime/deduplicate_release/pthread_pool.cpp" "/home/sensetime/deduplicate_release/build/CMakeFiles/bowPredict.dir/pthread_pool.cpp.o"
+  "/home/sensetime/deduplicate_release/sample.cpp" "/home/sensetime/deduplicate_release/build/CMakeFiles/bowPredict.dir/sample.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

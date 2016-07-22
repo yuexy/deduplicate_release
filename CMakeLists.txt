@@ -4,8 +4,8 @@ INCLUDE_DIRECTORIES(${OPENCV_INCLUDE_DIR})
 INCLUDE_DIRECTORIES(.)
 link_directories(.)
 
- find_package (Threads)
- link_directories(../bin)
+find_package (Threads)
+link_directories(../bin)
 
  add_executable(bowPredict sample.cpp pthread_pool.cpp)
  SET(EXECUTABLE_OUTPUT_PATH ../bin)
