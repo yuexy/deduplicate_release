@@ -1,74 +1,21 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec1361380868/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1361380868.dir/build.make CMakeFiles/cmTryCompileExec1361380868.dir/build
-make[1]: Entering directory `/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1361380868.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1361380868.dir/CheckSymbolExists.c.o   -c /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1361380868
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1361380868.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1361380868.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1361380868 -rdynamic 
-CMakeFiles/cmTryCompileExec1361380868.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1361380868] Error 1
-make[1]: Leaving directory `/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1361380868/fast] Error 2
-
-File /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <pthread.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec2897017416/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2897017416.dir/build.make CMakeFiles/cmTryCompileExec2897017416.dir/build
-make[1]: Entering directory `/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2897017416.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2897017416.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2897017416
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2897017416.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2897017416.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2897017416 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2897017416] Error 1
-make[1]: Leaving directory `/home/jeffrey/Documents/sdb/project/deduplicate/deduplicate_release/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2897017416/fast] Error 2
-
-
-Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4163891038/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4163891038.dir/build.make CMakeFiles/cmTryCompileExec4163891038.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3966112131/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3966112131.dir/build.make CMakeFiles/cmTryCompileExec3966112131.dir/build
 make[1]: Entering directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4163891038.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4163891038.dir/CheckSymbolExists.c.o   -c /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec4163891038
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4163891038.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4163891038.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4163891038 -rdynamic 
-CMakeFiles/cmTryCompileExec4163891038.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3966112131.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3966112131.dir/CheckSymbolExists.c.o   -c /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3966112131
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3966112131.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3966112131.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3966112131 -rdynamic 
+CMakeFiles/cmTryCompileExec3966112131.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec4163891038] Error 1
+make[1]: *** [cmTryCompileExec3966112131] Error 1
 make[1]: Leaving directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec4163891038/fast] Error 2
+make: *** [cmTryCompileExec3966112131/fast] Error 2
 
 File /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -88,72 +35,19 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3314730552/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3314730552.dir/build.make CMakeFiles/cmTryCompileExec3314730552.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3324070050/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3324070050.dir/build.make CMakeFiles/cmTryCompileExec3324070050.dir/build
 make[1]: Entering directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3314730552.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3314730552.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3314730552
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3314730552.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3314730552.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3314730552 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec3324070050.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3324070050.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3324070050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3324070050.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3324070050.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3324070050 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3324070050] Error 1
 make[1]: Leaving directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec3314730552] Error 1
-make: *** [cmTryCompileExec3314730552/fast] Error 2
-
-
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec1737183183/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1737183183.dir/build.make CMakeFiles/cmTryCompileExec1737183183.dir/build
-make[1]: Entering directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1737183183.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1737183183.dir/CheckSymbolExists.c.o   -c /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1737183183
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1737183183.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1737183183.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1737183183 -rdynamic 
-CMakeFiles/cmTryCompileExec1737183183.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1737183183] Error 1
-make: *** [cmTryCompileExec1737183183/fast] Error 2
-
-File /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <pthread.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec1180344751/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1180344751.dir/build.make CMakeFiles/cmTryCompileExec1180344751.dir/build
-make[1]: Entering directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1180344751.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1180344751.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1180344751
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1180344751.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1180344751.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1180344751 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1180344751] Error 1
-make[1]: Leaving directory `/home/sensetime/deduplicate_release/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1180344751/fast] Error 2
+make: *** [cmTryCompileExec3324070050/fast] Error 2
 
 

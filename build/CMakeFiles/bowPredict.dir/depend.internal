@@ -6,6 +6,7 @@ CMakeFiles/bowPredict.dir/pthread_pool.cpp.o
  /home/sensetime/deduplicate_release/pthread_pool.hpp
 CMakeFiles/bowPredict.dir/sample.cpp.o
  /home/sensetime/deduplicate_release/include_sense_image_search.h
+ /home/sensetime/deduplicate_release/pthread_pool.hpp
  /home/sensetime/deduplicate_release/sample.cpp
  /home/sensetime/deduplicate_release/sf_common.h
  /usr/local/include/opencv2/calib3d/calib3d.hpp

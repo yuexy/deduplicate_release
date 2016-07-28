@@ -5,6 +5,7 @@ CMakeFiles/bowPredict.dir/pthread_pool.cpp.o: ../pthread_pool.cpp
 CMakeFiles/bowPredict.dir/pthread_pool.cpp.o: ../pthread_pool.hpp
 
 CMakeFiles/bowPredict.dir/sample.cpp.o: ../include_sense_image_search.h
+CMakeFiles/bowPredict.dir/sample.cpp.o: ../pthread_pool.hpp
 CMakeFiles/bowPredict.dir/sample.cpp.o: ../sample.cpp
 CMakeFiles/bowPredict.dir/sample.cpp.o: ../sf_common.h
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/calib3d/calib3d.hpp

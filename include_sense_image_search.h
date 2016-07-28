@@ -82,12 +82,33 @@ SF_SDK_API sf_result_t sf_load_image_db( sf_handle_t db_handle, const char *db_p
 //＠return 成功返回SF_OK，否则返回错误类型
 SF_SDK_API sf_result_t sf_update_weights(sf_handle_t db_handle);
 
+//@brief 创建聚类中心的handle
+//成功返回handle，失败返回NULL
+SF_SDK_API sf_handle_t sf_create_word_handle(const char *db_path);
+
+// @brief 销毁已初始化的聚类中心(word)的handle
+// @param filter_handle 已初始化的聚类中心(word)的handle
+// @return 成功返回SF_OK，否则返回错误码
+SF_SDK_API sf_result_t sf_destroy_word_handle(sf_handle_t word_handle);
+
+
+// @brief 给db_handle绑定word_handle
+// @param filter_handle db_handle和已初始化的聚类中心(word)的handle
+// @return 成功返回SF_OK，否则返回错误码
+SF_SDK_API sf_result_t sf_link_word_handle( sf_handle_t db_handle, sf_handle_t word_handle);
+
+
+
+
+
 //@brief 寻找词典中重复的图片
 //@param ".txt文件,保存invertedFile中文件的路径"
 //@param ".txt"文件存放Query 图像列表
 //@param "初始化的图像数据库句柄"
 //@return "vector<pair<string md51, string md52>>"
 //@return "成功返回SF_OK,否则返回错误类型"
+
+
 
 
 
