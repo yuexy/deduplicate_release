@@ -6,3 +6,4 @@ ${word.st}
 ${word.st.option}
 ${invfile.st}
  
+This version is vaild until april, 2017.
