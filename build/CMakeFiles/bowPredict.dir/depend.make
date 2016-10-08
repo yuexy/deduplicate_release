@@ -12,7 +12,6 @@ CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/calib3d/calib
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/contrib/contrib.hpp
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/contrib/openfabmap.hpp
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/contrib/retina.hpp
-CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/core/affine.hpp
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/core/core.hpp
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/core/core_c.h
 CMakeFiles/bowPredict.dir/sample.cpp.o: /usr/local/include/opencv2/core/mat.hpp

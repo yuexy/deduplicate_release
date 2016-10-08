@@ -170,10 +170,10 @@ SF_SDK_API sf_handle_t sf_create_image_db(){
      time(&timep);
      newtime=localtime(&timep);
      bool outDated=false;
-     if(newtime->tm_year+1900>2016){
+     if(newtime->tm_year+1900>2017){
          outDated=true; cout<<"Invalid date"<<endl;
      }
-     else if((newtime->tm_year+1900)==2016&& (newtime->tm_mon+1)>9){
+     else if((newtime->tm_year+1900)==2017&& (newtime->tm_mon+1)>4){
          outDated=true; cout<<"Invalid date"<<endl;
      }
      if(outDated) {
